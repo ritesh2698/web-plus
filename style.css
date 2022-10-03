@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    background-color: black;
+    color: white;
+}
+
+.header p{
+    font-size: 12px;
+    text-align: right;
+    word-spacing: 10px;
+    margin-right: 10px;
+    padding: 5px;
+}
+.header i{
+    margin-right:5px;
+}
+
+.nav{
+    margin: 10px 0 10px 0;
+}
+.banner{
+    margin: 20px 0 0 0;
+}
+.banner img{
+    width: 100%;
+  height: 500px;
+} 
+
+
+.about{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-items: center;
+    margin: 20px;
+
+}
+
+.about1{
+    height: 350px;
+    width: 500px;
+    justify-self: center;
+    align-self: center;
+    margin: 20px;
+    padding: 10px;
+  }
+
+  a > button{
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+  }
+
+  .about2{
+    height: 450px;
+    width: 500px;
+    margin: 20px;
+    padding: 10px;
+  }
+
+.about2 img{
+    height:100%;
+    width: 100%;    
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-items: center;
+    flex-direction: row;
+    margin: 20px;  
+    background-color: rgb(204, 204, 204);  
+}
+
+.card1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-items: center;
+    flex-direction: col;
+    width: 300px;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    position: relative;
+    
+}
+.cimg img {
+    height:50% ;
+    width: 100%;
+}
+
+.ccont{
+    position: absolute;
+    top:52% ;
+    text-align: center;
+
+}
+
+.cfoot{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: orange;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+.card2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-items: center;
+    flex-direction: col;
+    width: 300px;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    position: relative;
+   
+}
+.card3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    justify-items: center;
+    flex-direction: col;
+    width: 300px;
+    height:400px;
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    position: relative;
+}
+
+@media(max-width:744px){
+    
+.nav{
+    margin: 5px 0 5px 0;
+}
+.banner{
+    margin: 5px 0 0 0;
+}
+    .header p{
+        font-size:8px;
+        text-align: right;
+        word-spacing: 5px;
+        margin-right: 5px;
+        padding: 2px;
+    }
+    .banner img{
+        width: 100%;
+      height: 300px;
+    }
+    .about{
+        display: flex; 
+        flex-wrap: wrap;
+        flex-direction: column; 
+        justify-content:center;
+        justify-items: center;      
+        margin:10px 0 10px 0;
+    }
+    .about1{
+        flex-basis: 100%;
+    }
+    .about2{
+        width: 70%;       
+        height: 300px;
+        width: 300px;
+      }
+      .about2 img{
+        align-self: center;
+        height: 100%;
+        width: 100%;
+        text-align: center;
+      }
+
+}
+
